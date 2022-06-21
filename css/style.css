@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   background-color: rgb(66, 96, 193);
+}
+.card{
+    width: 350px;
+    height: 500px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(29, 26, 26, 0.401);
+}
+.card-img img{
+    width: 100%;
+    height: 200px;
+    border-radius: 25px 25px 0 0;
+}
+.card-text{
+    text-align: center;
+    margin: 30px;
+}
+.statistic{
+    font-size: 13px;
+    background-color: blue;
+}
+.data{
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 27px;
+    width: 33,333%;
+    border: 1px solid deepskyblue;
+    margin: 0;
+}
